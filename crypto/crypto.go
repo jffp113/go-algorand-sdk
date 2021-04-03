@@ -9,9 +9,9 @@ import (
 
 	"golang.org/x/crypto/ed25519"
 
-	"github.com/algorand/go-algorand-sdk/encoding/msgpack"
-	"github.com/algorand/go-algorand-sdk/logic"
-	"github.com/algorand/go-algorand-sdk/types"
+	"github.com/jffp113/go-algorand-sdk/encoding/msgpack"
+	"github.com/jffp113/go-algorand-sdk/logic"
+	"github.com/jffp113/go-algorand-sdk/types"
 )
 
 // txidPrefix is prepended to a transaction when computing its txid
@@ -59,6 +59,11 @@ func GenerateAddressFromSK(sk []byte) (types.Address, error) {
 // If the SK's corresponding address is different than the txn sender's, the SK's
 // corresponding address will be assigned as AuthAddr
 func SignTransaction(sk ed25519.PrivateKey, tx types.Transaction) (txid string, stxBytes []byte, err error) {
+	return SignTransactionWithGroupSignature(sk,tx,types.GroupEnvelop{})
+}
+
+
+func SignTransactionWithGroupSignature(sk ed25519.PrivateKey, tx types.Transaction, groupSig types.GroupEnvelop) (txid string, stxBytes []byte, err error) {
 	s, txid, err := rawSignTransaction(sk, tx)
 	if err != nil {
 		return
@@ -67,6 +72,7 @@ func SignTransaction(sk ed25519.PrivateKey, tx types.Transaction) (txid string, 
 	stx := types.SignedTxn{
 		Sig: s,
 		Txn: tx,
+		GroupSignature: groupSig,
 	}
 
 	a, err := GenerateAddressFromSK(sk)

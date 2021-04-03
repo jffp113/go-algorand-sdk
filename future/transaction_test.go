@@ -2,11 +2,11 @@ package future
 
 import (
 	"encoding/base64"
-	"github.com/algorand/go-algorand-sdk/crypto"
-	"github.com/algorand/go-algorand-sdk/encoding/msgpack"
-	"github.com/algorand/go-algorand-sdk/mnemonic"
-	"github.com/algorand/go-algorand-sdk/transaction"
-	"github.com/algorand/go-algorand-sdk/types"
+	"github.com/jffp113/go-algorand-sdk/crypto"
+	"github.com/jffp113/go-algorand-sdk/encoding/msgpack"
+	"github.com/jffp113/go-algorand-sdk/mnemonic"
+	"github.com/jffp113/go-algorand-sdk/transaction"
+	"github.com/jffp113/go-algorand-sdk/types"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

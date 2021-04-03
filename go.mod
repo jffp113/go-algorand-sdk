@@ -1,4 +1,4 @@
-module github.com/algorand/go-algorand-sdk
+module github.com/jffp113/go-algorand-sdk
 
 go 1.13
 

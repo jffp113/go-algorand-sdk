@@ -3,7 +3,7 @@ package indexer
 import (
 	"context"
 
-	"github.com/algorand/go-algorand-sdk/client/v2/common"
+	"github.com/jffp113/go-algorand-sdk/client/v2/common"
 )
 
 const indexerAuthHeader = "X-Indexer-API-Token"

@@ -12,9 +12,9 @@ import (
 
 	"github.com/cucumber/godog"
 
-	"github.com/algorand/go-algorand-sdk/client/v2/common/models"
-	"github.com/algorand/go-algorand-sdk/client/v2/indexer"
-	"github.com/algorand/go-algorand-sdk/encoding/json"
+	"github.com/jffp113/go-algorand-sdk/client/v2/common/models"
+	"github.com/jffp113/go-algorand-sdk/client/v2/indexer"
+	"github.com/jffp113/go-algorand-sdk/encoding/json"
 )
 
 func IndexerIntegrationTestContext(s *godog.Suite) {

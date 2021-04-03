@@ -3,8 +3,8 @@ package templates
 import (
 	"encoding/base64"
 	"fmt"
-	"github.com/algorand/go-algorand-sdk/crypto"
-	"github.com/algorand/go-algorand-sdk/types"
+	"github.com/jffp113/go-algorand-sdk/crypto"
+	"github.com/jffp113/go-algorand-sdk/types"
 )
 
 // HTLC template representation

@@ -2,9 +2,9 @@ package templates
 
 import (
 	"encoding/base64"
-	"github.com/algorand/go-algorand-sdk/crypto"
-	"github.com/algorand/go-algorand-sdk/future"
-	"github.com/algorand/go-algorand-sdk/types"
+	"github.com/jffp113/go-algorand-sdk/crypto"
+	"github.com/jffp113/go-algorand-sdk/future"
+	"github.com/jffp113/go-algorand-sdk/types"
 )
 
 // LimitOrder represents a swap between Algos and an Asset at some ratio or better.

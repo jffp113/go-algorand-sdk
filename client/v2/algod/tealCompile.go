@@ -3,8 +3,8 @@ package algod
 import (
 	"context"
 
-	"github.com/algorand/go-algorand-sdk/client/v2/common"
-	"github.com/algorand/go-algorand-sdk/client/v2/common/models"
+	"github.com/jffp113/go-algorand-sdk/client/v2/common"
+	"github.com/jffp113/go-algorand-sdk/client/v2/common/models"
 )
 
 // TealCompile /v2/teal/compile

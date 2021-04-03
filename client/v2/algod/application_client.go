@@ -1,7 +1,7 @@
 package algod
 
 import (
-	"github.com/algorand/go-algorand-sdk/client/v2/common/models"
+	"github.com/jffp113/go-algorand-sdk/client/v2/common/models"
 )
 
 // /v2/applications/{application-id}

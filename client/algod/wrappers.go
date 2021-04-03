@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/algorand/go-algorand-sdk/client/algod/models"
-	"github.com/algorand/go-algorand-sdk/types"
+	"github.com/jffp113/go-algorand-sdk/client/algod/models"
+	"github.com/jffp113/go-algorand-sdk/types"
 )
 
 // Status retrieves the StatusResponse from the running node

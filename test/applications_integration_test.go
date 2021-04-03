@@ -12,11 +12,11 @@ import (
 
 	"github.com/cucumber/godog"
 
-	"github.com/algorand/go-algorand-sdk/client/v2/algod"
-	"github.com/algorand/go-algorand-sdk/client/v2/common/models"
-	"github.com/algorand/go-algorand-sdk/crypto"
-	"github.com/algorand/go-algorand-sdk/future"
-	"github.com/algorand/go-algorand-sdk/types"
+	"github.com/jffp113/go-algorand-sdk/client/v2/algod"
+	"github.com/jffp113/go-algorand-sdk/client/v2/common/models"
+	"github.com/jffp113/go-algorand-sdk/crypto"
+	"github.com/jffp113/go-algorand-sdk/future"
+	"github.com/jffp113/go-algorand-sdk/types"
 )
 
 var algodV2client *algod.Client

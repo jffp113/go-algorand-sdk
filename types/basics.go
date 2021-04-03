@@ -2,7 +2,7 @@ package types
 
 import (
 	"encoding/base64"
-	"github.com/algorand/go-algorand-sdk/encoding/msgpack"
+	"github.com/jffp113/go-algorand-sdk/encoding/msgpack"
 	"math"
 
 	"golang.org/x/crypto/ed25519"

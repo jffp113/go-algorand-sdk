@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/algorand/go-algorand-sdk/client/v2/common"
-	"github.com/algorand/go-algorand-sdk/client/v2/common/models"
+	"github.com/jffp113/go-algorand-sdk/client/v2/common"
+	"github.com/jffp113/go-algorand-sdk/client/v2/common/models"
 )
 
 // LookupAssetBalances is used to lookup asset balances

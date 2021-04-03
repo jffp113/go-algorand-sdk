@@ -1,6 +1,6 @@
 package models
 
-import "github.com/algorand/go-algorand-sdk/types"
+import "github.com/jffp113/go-algorand-sdk/types"
 
 // Account information at a given round.
 // Definition:

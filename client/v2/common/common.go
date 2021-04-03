@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/algorand/go-algorand-sdk/encoding/msgpack"
+	"github.com/jffp113/go-algorand-sdk/encoding/msgpack"
 	"github.com/google/go-querystring/query"
 )
 

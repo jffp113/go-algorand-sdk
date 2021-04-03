@@ -11,12 +11,12 @@ import (
 	"github.com/cucumber/godog"
 	"golang.org/x/crypto/ed25519"
 
-	"github.com/algorand/go-algorand-sdk/client/v2/algod"
-	"github.com/algorand/go-algorand-sdk/client/v2/indexer"
-	"github.com/algorand/go-algorand-sdk/crypto"
-	"github.com/algorand/go-algorand-sdk/future"
-	"github.com/algorand/go-algorand-sdk/mnemonic"
-	"github.com/algorand/go-algorand-sdk/types"
+	"github.com/jffp113/go-algorand-sdk/client/v2/algod"
+	"github.com/jffp113/go-algorand-sdk/client/v2/indexer"
+	"github.com/jffp113/go-algorand-sdk/crypto"
+	"github.com/jffp113/go-algorand-sdk/future"
+	"github.com/jffp113/go-algorand-sdk/mnemonic"
+	"github.com/jffp113/go-algorand-sdk/types"
 )
 
 var sk1 ed25519.PrivateKey

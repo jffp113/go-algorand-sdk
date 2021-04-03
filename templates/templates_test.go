@@ -4,9 +4,9 @@ import (
 	"encoding/base64"
 	"testing"
 
-	"github.com/algorand/go-algorand-sdk/encoding/msgpack"
-	"github.com/algorand/go-algorand-sdk/future"
-	"github.com/algorand/go-algorand-sdk/types"
+	"github.com/jffp113/go-algorand-sdk/encoding/msgpack"
+	"github.com/jffp113/go-algorand-sdk/future"
+	"github.com/jffp113/go-algorand-sdk/types"
 
 	"github.com/stretchr/testify/require"
 )

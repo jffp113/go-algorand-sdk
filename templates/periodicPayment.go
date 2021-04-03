@@ -3,10 +3,10 @@ package templates
 import (
 	"encoding/base64"
 	"fmt"
-	"github.com/algorand/go-algorand-sdk/crypto"
-	"github.com/algorand/go-algorand-sdk/future"
-	"github.com/algorand/go-algorand-sdk/logic"
-	"github.com/algorand/go-algorand-sdk/types"
+	"github.com/jffp113/go-algorand-sdk/crypto"
+	"github.com/jffp113/go-algorand-sdk/future"
+	"github.com/jffp113/go-algorand-sdk/logic"
+	"github.com/jffp113/go-algorand-sdk/types"
 	"golang.org/x/crypto/ed25519"
 )
 

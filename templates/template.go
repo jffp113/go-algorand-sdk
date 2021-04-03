@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"encoding/binary"
 	"fmt"
-	"github.com/algorand/go-algorand-sdk/types"
+	"github.com/jffp113/go-algorand-sdk/types"
 )
 
 // ContractTemplate template representation
