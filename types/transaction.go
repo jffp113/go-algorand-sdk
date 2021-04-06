@@ -29,7 +29,7 @@ type SignedTxn struct {
 	Lsig     LogicSig    `codec:"lsig"`
 	Txn      Transaction `codec:"txn"`
 	AuthAddr Address     `codec:"sgnr"`
-//	GroupSignature GroupEnvelop `codec:"gsig"`
+	GroupSignature GroupEnvelop `codec:"gsig"`
 }
 
 //GroupEnvelop represents a signature from signer node witnesses
